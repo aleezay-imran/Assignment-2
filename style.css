@@ -58,6 +58,9 @@ button{
     background: none;
 }
 
+#menu-open-button {
+    background-color: #f3961c;
+}
 img{
     width: 100%;
 }
@@ -327,7 +330,7 @@ background: var(---light-pink-color);
 /*styling contact*/
 .contact-section {
     padding: 50px;
-    background-color: #f4f4f4;
+    background-color: #3C1F1B; /* Similar to the navbar color */
     max-width: 600px;
     margin: 0 auto;
     border-radius: 8px;
@@ -337,7 +340,7 @@ background: var(---light-pink-color);
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: white; /* Adjust text color for better contrast */
 }
 
 .contact-form {
@@ -352,7 +355,7 @@ h2 {
 label {
     margin-bottom: 5px;
     font-size: 16px;
-    color: #333;
+    color: white; /* Adjust label text color */
 }
 
 input, textarea {
@@ -365,13 +368,13 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border-color: #0056b3;
+    border-color: #8B0000; /* Maroon accent for focus */
     outline: none;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #0056b3;
+    background-color: #8B0000; /* Match button color with navbar */
     color: white;
     font-size: 16px;
     border: none;
@@ -381,11 +384,8 @@ button {
 }
 
 button:hover {
-    background-color: #003f7f;
+    background-color: #610101; /* Darker hover effect */
 }
-
-
-
 
 
 /* responsive media query code for max width 900px */
